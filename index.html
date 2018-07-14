@@ -436,14 +436,32 @@
     <script src="/craftdelta/js/main-unminified.js" type="text/javascript"></script>
 
     <script>
+      if (window.location.href.indexOf('index.html') > -1) {
+        window.location.href = window.location.href.replace('index.html', '');
+      }
+
       $(document).ready(function() {
+          // don't collapse charts when loaded hidden
           setTimeout(function() {
             if ($('#chartsView').hasClass('active') && $('#tradeView').hasClass('active')) {
               $('#chartsView').removeClass('active');
             }
             $('body').css({overflowY: 'auto'});
+
+            $('#tokensDropdown .dropdown-menu li, #tokensDropdown .dropdown-menu a')
+              .on('click', function() {
+              if (!($('#chartsView').hasClass('active'))) {
+                  $('#chartsView').addClass('active');
+                  $('body').css({overflowY: 'hidden'});
+                  setTimeout(function() {
+                      $('#chartsView').removeClass('active');
+                      $('body').css({overflowY: 'auto'});
+                  }, 2000);
+              }
+            });
         }, 10000);
 
+        // close mobile nav on content click
         $('#main_content, .select-view>li>a').on('click', function() {
           if ($('.navbar-toggle').attr('aria-expanded') == 'true') {
             $('.navbar-toggle').click();

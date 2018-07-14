@@ -24,11 +24,14 @@ body {
 
 .navbar-toggle {
   float:left;
-  margin-right:0;
-  margin-left: 5px;
-  margin-top: 13px;
-  padding: 5px 4px;
+  margin: 0;
+  padding: 18px 15px 15px 5px;
+  border: 0px none transparent;
   cursor: pointer;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #FFF;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
