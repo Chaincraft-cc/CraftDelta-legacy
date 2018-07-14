@@ -40,6 +40,23 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 860px) and (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.navbar-nav ul.select-view>li a {
+  text-decoration: underline;
+  font-size: 12px;
+}
+.navbar-nav ul.select-view>li.active a {
+  text-decoration: none;
+}
+
+
+
 .navbar-nav.navbar-left {
   float: left;
 }
