@@ -85,7 +85,7 @@
             "image": [
               {
                 "@type": "ImageObject",
-                "url": "https:\/\/chaincraft.cc\/craftdelta\/images\/title.png",
+                "url": "https:\/\/chaincraft.cc\/craftdelta\/images\/craftdelta.png",
                 "width": 1600,
                 "height": 400
               },
@@ -176,7 +176,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/craftdelta">
-            <img src="/craftdelta/images/title.png" alt="CraftDelta by Chaincraft.cc" />
+            <img src="/craftdelta/images/craftdelta_header.png" alt="CraftDelta DEX by Chaincraft.cc" />
           </a>
         </div>
         <div class="navbar-select-text selectToken">Select Token:</div>
@@ -228,7 +228,7 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="container tab-content">
+    <div id="main_content" class="container tab-content" role="main">
       <div class="tab-pane active" role="tabpanel" id="tradeView">
         <div class="row">
 
@@ -443,6 +443,12 @@
             }
             $('body').css({overflowY: 'auto'});
         }, 10000);
+
+        $('#main_content, .select-view>li>a').on('click', function() {
+          if ($('.navbar-toggle').attr('aria-expanded') == 'true') {
+            $('.navbar-toggle').click();
+          }
+        });
       });
     </script>
 

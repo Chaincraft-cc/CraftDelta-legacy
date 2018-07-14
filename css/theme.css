@@ -47,6 +47,10 @@ body {
   }
 }
 
+.navbar-fixed-top .navbar-collapse {
+    max-height: 415px;
+}
+
 .navbar-nav ul.select-view>li a {
   text-decoration: underline;
   font-size: 12px;
@@ -54,8 +58,6 @@ body {
 .navbar-nav ul.select-view>li.active a {
   text-decoration: none;
 }
-
-
 
 .navbar-nav.navbar-left {
   float: left;
@@ -85,6 +87,7 @@ body {
 #tokensDropdown .dropdown-toggle {
   padding: 4px 10px 3px 3px;
   margin-top: 15px;
+  margin-left: 25px;
 }
 .navbar-nav #tokensDropdown .dropdown-menu a span.name {
   color: #4CAF50;
@@ -136,7 +139,7 @@ ul.select-view>li {
     padding-top: 50px;
   }
   .navbar-header {
-    width: 254px;
+    width: 240px;
     float: left;
   }
 
@@ -151,7 +154,7 @@ ul.select-view>li {
     max-height: 355px;
   }
   .selectToken {
-    left:240px;
+    left:228px;
   }
 }
 @media screen and (min-width: 768px) {
