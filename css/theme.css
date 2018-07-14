@@ -998,7 +998,7 @@ fieldset[disabled] .form-control {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 	#balance {
 		height: 330px;
 	}
@@ -1006,4 +1006,9 @@ fieldset[disabled] .form-control {
 	.row-box.height4 {
 		height: 400px;
 	}
+  .row-box.height5, .row-box.height3 {
+    max-height: 65vh;
+    height:auto;
+  }
+
 }
