@@ -18,10 +18,10 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.001,
-  "socketServer": "https://api.forkdelta.com",
-  "userCookie": "EtherDelta",
-  "eventsCacheCookie": "EtherDelta_eventsCache",
-  "ordersCacheCookie": "EtherDelta_ordersCache",
+  "socketServer": "https://chaincraft.cc",
+  "userCookie": "CraftDelta",
+  "eventsCacheCookie": "CraftDelta_eventsCache",
+  "ordersCacheCookie": "CraftDelta_ordersCache",
   "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
@@ -1024,7 +1024,7 @@
     { "addr": "0xff603f43946a3a28df5e6a73172555d8c8b02386", "name": "RNT", "fullName": "OneRoot Network Token", "decimals": 18 },
     { "addr": "0xffc63b9146967a1ba33066fb057ee3722221acf0", "name": "A", "fullName": "Alpha", "decimals": 18 },
     { "addr": "0xffe8196bc259e8dedc544d935786aa4709ec3e64", "name": "HDG", "fullName": "Hedge", "decimals": 18 },
-    { "addr": "0x25d853d9CAa04B8Ee4F383b4E9FEf41B15e69847", "name": "CG", "fullName": "CraftGenesis", "decimals": 18 }
+    { "addr": "", "name": "CG", "fullName": "CraftGenesis", "decimals": 18 }
   ],
   "defaultPair": { "token": "DAI", "base": "ETH" }
 }
