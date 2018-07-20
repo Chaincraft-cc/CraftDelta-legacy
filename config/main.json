@@ -1024,7 +1024,23 @@
     { "addr": "0xff603f43946a3a28df5e6a73172555d8c8b02386", "name": "RNT", "fullName": "OneRoot Network Token", "decimals": 18 },
     { "addr": "0xffc63b9146967a1ba33066fb057ee3722221acf0", "name": "A", "fullName": "Alpha", "decimals": 18 },
     { "addr": "0xffe8196bc259e8dedc544d935786aa4709ec3e64", "name": "HDG", "fullName": "Hedge", "decimals": 18 },
-    { "addr": "0x25d853d9CAa04B8Ee4F383b4E9FEf41B15e69847", "name": "CG", "fullName": "CraftGenesis", "decimals": 18 }
+
+    {"addr":"0x94298f1e0ab2dfad6eeffb1426846a3c29d98090","name":"MyB","decimals":8},
+    {"addr":"0x473319898464ca640af692a0534175981ab78aa1","name":"POKT","decimals":4},
+    {"addr":"0x44f12955189e3f01be5daf1dd9002ee4d774f42b","name":"AFST","decimals":18},
+    {"addr":"0xdee667186e7b81ecf7efc8713382d8d99a8b92b4","name":"EBCG","decimals":18},
+    {"addr":"0xdf1ce35938f9ca2eab682284f82a81a9d25665ce","name":"STM","decimals":18},
+    {"addr":"0x70838403ecc194b73e50b70a177b2ef413a2f421","name":"BZX","decimals":18},
+    {"addr":"0x4b4e611823702285fd526d7a8a3b0aa99ab2dbcd","name":"HDLT","decimals":18},
+    {"addr":"0xffb99f90bcd96fe743796fd8eefaaa6617753e79","name":"MMC2","decimals":0},
+    {"addr":"0x9901ed1e649c4a77c7fff3dfd446ffe3464da747","name":"ENT","decimals":18},
+    {"addr":"0x6cee948c9d593c58cba5dfa70482444899d1341c","name":"SXSOLD","decimals":18},
+    {"addr":"0xd6e49800decb64c0e195f791348c1e87a5864fd7","name":"RCT","decimals":9},
+    {"addr":"0xaadb05f449072d275833baf7c82e8fca4ee46575","name":"SXUOLD","decimals":6},
+    {"addr":"0x554c98b3ec772f79ee5b96d47a1d10852ed274c8","name":"SXDOLD","decimals":6},
+
+    { "addr": "0x25d853d9CAa04B8Ee4F383b4E9FEf41B15e69847", "name": "CG", "fullName": "CraftGenesis", "decimals": 18 },
+
   ],
   "defaultPair": { "token": "DAI", "base": "ETH" }
 }
