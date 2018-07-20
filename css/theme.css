@@ -1008,6 +1008,7 @@ fieldset[disabled] .form-control {
 	}
   .row-box.height5, .row-box.height3 {
     max-height: 65vh;
+    min-height: 40vh;
     height:auto;
   }
 
