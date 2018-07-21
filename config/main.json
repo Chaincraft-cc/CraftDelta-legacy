@@ -1039,7 +1039,7 @@
     {"addr":"0xaadb05f449072d275833baf7c82e8fca4ee46575","name":"SXUOLD","decimals":6},
     {"addr":"0x554c98b3ec772f79ee5b96d47a1d10852ed274c8","name":"SXDOLD","decimals":6},
 
-    { "addr": "0x25d853d9CAa04B8Ee4F383b4E9FEf41B15e69847", "name": "CG", "fullName": "CraftGenesis", "decimals": 18 },
+    { "addr": "0x25d853d9CAa04B8Ee4F383b4E9FEf41B15e69847", "name": "CG", "fullName": "CraftGenesis", "decimals": 18 }
 
   ],
   "defaultPair": { "token": "DAI", "base": "ETH" }
